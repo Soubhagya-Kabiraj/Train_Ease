@@ -112,21 +112,20 @@ RailwayTicketBookingApp/
    git clone https://github.com/yourusername/RailwayTicketBookingApp.git
    ```
 
-2. **Open project in your IDE** (VS Code, IntelliJ, PyCharm, etc.)
+2. **Open project in your IDE** (Eclipse etc.)
 
 3. **Import Database:**
 
-   * Open MySQL / SQLite.
-   * Import `railway_db.sql` from the `database` folder.
+   * Open MySQL.
+   * Import `Railway_Ticket_Book_App_DB.sql` from the `database` folder.
 
 4. **Run the Application:**
 
-   * For web: Start server (XAMPP / Tomcat).
-   * For desktop: Run the main file (`main.py` / `Main.java`).
+   * For web: Start server (Tomcat).
 
 5. **Login:**
 
-   * **Admin:** username: `admin`, password: `admin123`
+   * **Admin:** username: `admin`, password: `admin`
    * **User:** register a new account or login with existing credentials.
 
 ---
