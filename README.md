@@ -17,7 +17,6 @@ The application provides separate modules for **Admin** and **User**, ensuring s
 * [Tech Stack](#tech-stack)
 * [Project Structure](#project-structure)
 * [Screenshots](#screenshots)
-* [How to Run](#how-to-run)
 * [Future Enhancements](#future-enhancements)
 * [Contributors](#contributors)
 * [License](#license)
@@ -70,63 +69,44 @@ This project demonstrates CRUD operations, data validation, and role-based acces
 ---
 
 ## 📁 Project Structure
-
 ```
 RailwayTicketBookingApp/
 │
 ├── admin/
-│   ├── add_train.*
-│   ├── delete_train.*
-│   ├── update_train.*
-│   ├── search_train.*
-│   └── booking_details.*
+│   ├── add_train.*            # Add new train details
+│   ├── delete_train.*         # Delete existing train data
+│   ├── update_train.*         # Modify train information
+│   ├── search_train.*         # Search trains by filters
+│   ├── train_details.*        # Display complete train info
+│   └── booking_details.*      # View all user booking records
 │
 ├── user/
-│   ├── home.*
-│   ├── menu.*
-│   ├── about_us.*
-│   ├── contact_us.*
-│   ├── view_train.*
-│   ├── search_train.*
-│   ├── book_ticket.*
-│   ├── show_ticket.*
-│   └── ticket_history.*
-│
-├── assets/
-│   ├── css/
-│   ├── js/
-│   └── images/
+│   ├── home.*                 # Home page (after login)
+│   ├── menu/                  # User menu section (contains user features)
+│   │   ├── view_train.*       # View available trains
+│   │   ├── search_train.*     # Search specific trains
+│   │   ├── book_ticket.*      # Book train tickets
+│   │   ├── cancel_ticket.*    # Cancel booked tickets
+│   │   ├── show_ticket.*      # View current ticket
+│   │   └── ticket_history.*   # View all past bookings
+│   │
+│   ├── about_us.*             # Information about system and developers
+│   ├── contact_us.*           # Contact / feedback form
+│   └── logout.*               # Secure logout function
 │
 ├── database/
-│   └── railway_db.sql
+│   └── Railway_Ticket_Book_App_DB.sql
 │
-└── README.md
+├── LICENSE                    # MIT License file
+│
+└── README.md                  # Project documentation
+
 ```
+---
+
+## 📸 Screenshots
 
 
-## ⚙️ How to Run
-
-1. **Clone this repository:**
-
-   ```bash
-   git clone https://github.com/yourusername/RailwayTicketBookingApp.git
-   ```
-
-2. **Open project in your IDE** (Eclipse etc.)
-
-3. **Import Database:**
-
-   * Open MySQL.
-   * Import `Railway_Ticket_Book_App_DB.sql` from the `database` folder.
-
-4. **Run the Application:**
-
-   * For web: Start server (Tomcat).
-
-5. **Login:**
-
-   * **Admin:** username: `admin`, password: `admin`
-   * **User:** register a new account or login with existing credentials.
 
 ---
 
@@ -146,7 +126,6 @@ RailwayTicketBookingApp/
 * **Sourav Gorain** – Frontend UI Designer
 * **Khushbu Singh** – Database Designer
 
-> Feel free to fork this repo, raise issues, or submit pull requests to improve this project!
 
 ---
 
